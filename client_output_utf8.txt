@@ -1,0 +1,20 @@
+﻿Connected to Gateway
+Sending connect frame: {
+  "minProtocol": 1,
+  "maxProtocol": 1,
+  "client": {
+    "id": "test",
+    "version": "1.0.0",
+    "platform": "node",
+    "mode": "test"
+  }
+}
+Received message: {
+  "type": "event",
+  "event": "connect.challenge",
+  "payload": {
+    "nonce": "55718408-ce31-4159-b3d3-781da318042c",
+    "ts": 1771212095459
+  }
+}
+Disconnected: 1008 invalid request frame

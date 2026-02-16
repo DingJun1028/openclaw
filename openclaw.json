@@ -1,0 +1,18 @@
+{
+    "gateway": {
+        "port": 19001
+    },
+    "mcp": {
+        "servers": {
+            "omnicrew": {
+                "command": "../.venv/Scripts/python.exe",
+                "args": [
+                    "../server/crewai/main.py"
+                ],
+                "env": {
+                    "PYTHONPATH": ".."
+                }
+            }
+        }
+    }
+}
